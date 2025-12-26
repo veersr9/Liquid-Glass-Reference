@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8C12211D3D02204DC5481B85 /* LiquidGlassReferenceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C0511FB322FF3AD6BB09C5B /* LiquidGlassReferenceApp.swift */; };
+		0BA23BB6A4888451FA5C60D1 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25AA0B3F5A124CE4AF7AE39 /* RootTabView.swift */; };
+		98292E438D6D5E38A1951B3C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA1CBA23C6411F3DE649FD3 /* HomeView.swift */; };
+		B7C0F21F69A6B3CF063EC1A6 /* GlassPlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C65ADB3C4EA9CEED4FA1FD9 /* GlassPlaygroundView.swift */; };
+		402AB627A822DA78979B3EFA /* SearchDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6B20EF8BB60B69FD10B6DE /* SearchDemoView.swift */; };
+		148786A3F4A5ACD2FDD88783 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B82501153D2D44BF8CC27C /* SettingsView.swift */; };
+		71B5CCCA66CCEE1B1492F805 /* InfoSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C778558C28E2D16D3BC100 /* InfoSheetView.swift */; };
+		601EECE5C698E2CD3BD63191 /* DemoSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997272116429B3758CE8443F /* DemoSettings.swift */; };
+		83072748CC167BF18E72FA87 /* GlassCompat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5347F72116244725E5BA5946 /* GlassCompat.swift */; };
+		79D4FA0E8511866808DEC3B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 617AF452B7044BD82346A29B /* Assets.xcassets */; };
+		C8E74FFC04A0B68B504806A9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA66559921CEAFE6CCC0FC9 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C0511FB322FF3AD6BB09C5B /* LiquidGlassReferenceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LiquidGlassReferenceApp.swift"; sourceTree = "<group>"; };
+		A25AA0B3F5A124CE4AF7AE39 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RootTabView.swift"; sourceTree = "<group>"; };
+		FCA1CBA23C6411F3DE649FD3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeView.swift"; sourceTree = "<group>"; };
+		4C65ADB3C4EA9CEED4FA1FD9 /* GlassPlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlassPlaygroundView.swift"; sourceTree = "<group>"; };
+		3D6B20EF8BB60B69FD10B6DE /* SearchDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SearchDemoView.swift"; sourceTree = "<group>"; };
+		A9B82501153D2D44BF8CC27C /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsView.swift"; sourceTree = "<group>"; };
+		75C778558C28E2D16D3BC100 /* InfoSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InfoSheetView.swift"; sourceTree = "<group>"; };
+		997272116429B3758CE8443F /* DemoSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DemoSettings.swift"; sourceTree = "<group>"; };
+		5347F72116244725E5BA5946 /* GlassCompat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GlassCompat.swift"; sourceTree = "<group>"; };
+		617AF452B7044BD82346A29B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Assets.xcassets"; sourceTree = "<group>"; };
+		FAA66559921CEAFE6CCC0FC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4A4C68C7DA7006139C672553 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Info.plist"; sourceTree = "<group>"; };
+		4CF1DABA89BE0C55C3BC784F /* LiquidGlassReference.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LiquidGlassReference.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A878C1ED710F6D8ECA085F45 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = "README.md"; sourceTree = "<group>"; };
+		6A43595D4C8D702F1846F659 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = ".gitignore"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		71FE200D317990948E24D8EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C999E731352905727541C3C = {
+			isa = PBXGroup;
+			children = (
+				721452D3486F83D5C0C9E7AE /* LiquidGlassReference */,
+				6D159F361021D92BC3E10E55 /* Products */,
+				A878C1ED710F6D8ECA085F45 /* README.md */,
+				6A43595D4C8D702F1846F659 /* .gitignore */,
+			);
+			sourceTree = "<group>";
+		};
+		721452D3486F83D5C0C9E7AE /* LiquidGlassReference */ = {
+			isa = PBXGroup;
+			children = (
+				4C0511FB322FF3AD6BB09C5B /* LiquidGlassReferenceApp.swift */,
+				A25AA0B3F5A124CE4AF7AE39 /* RootTabView.swift */,
+				FCA1CBA23C6411F3DE649FD3 /* HomeView.swift */,
+				4C65ADB3C4EA9CEED4FA1FD9 /* GlassPlaygroundView.swift */,
+				3D6B20EF8BB60B69FD10B6DE /* SearchDemoView.swift */,
+				A9B82501153D2D44BF8CC27C /* SettingsView.swift */,
+				75C778558C28E2D16D3BC100 /* InfoSheetView.swift */,
+				997272116429B3758CE8443F /* DemoSettings.swift */,
+				5347F72116244725E5BA5946 /* GlassCompat.swift */,
+				81D01C0FD21E979897052079 /* Resources */,
+			);
+			path = "LiquidGlassReference";
+			sourceTree = "<group>";
+		};
+		81D01C0FD21E979897052079 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				617AF452B7044BD82346A29B /* Assets.xcassets */,
+				BF08892EA1A643931974AE65 /* Preview Content */,
+				4A4C68C7DA7006139C672553 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		BF08892EA1A643931974AE65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FAA66559921CEAFE6CCC0FC9 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6D159F361021D92BC3E10E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CF1DABA89BE0C55C3BC784F /* LiquidGlassReference.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		786E16E2A5FF21CC8F2CD5BF /* LiquidGlassReference */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 399283127DF0232BE71ECA67 /* Build configuration list for PBXNativeTarget "LiquidGlassReference" */;
+			buildPhases = (
+				A7BB88F141516E17F21602B2 /* Sources */,
+				71FE200D317990948E24D8EE /* Frameworks */,
+				AF5FE74DAAF3C2BCB23F9A40 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LiquidGlassReference";
+			productName = "LiquidGlassReference";
+			productReference = 4CF1DABA89BE0C55C3BC784F /* LiquidGlassReference.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CD759D4193846E4910FD9BB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 9999;
+				LastUpgradeCheck = 9999;
+				TargetAttributes = {
+					786E16E2A5FF21CC8F2CD5BF = {
+						CreatedOnToolsVersion = 26.0;
+					};
+				};
+			};
+			buildConfigurationList = 356E5185BFF641DD968B810D /* Build configuration list for PBXProject "LiquidGlassReference" */;
+			compatibilityVersion = "Xcode 26.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C999E731352905727541C3C;
+			productRefGroup = 6D159F361021D92BC3E10E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				786E16E2A5FF21CC8F2CD5BF /* LiquidGlassReference */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF5FE74DAAF3C2BCB23F9A40 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				79D4FA0E8511866808DEC3B4 /* Assets.xcassets in Resources */,
+				C8E74FFC04A0B68B504806A9 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7BB88F141516E17F21602B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C12211D3D02204DC5481B85 /* LiquidGlassReferenceApp.swift in Sources */,
+				0BA23BB6A4888451FA5C60D1 /* RootTabView.swift in Sources */,
+				98292E438D6D5E38A1951B3C /* HomeView.swift in Sources */,
+				B7C0F21F69A6B3CF063EC1A6 /* GlassPlaygroundView.swift in Sources */,
+				402AB627A822DA78979B3EFA /* SearchDemoView.swift in Sources */,
+				148786A3F4A5ACD2FDD88783 /* SettingsView.swift in Sources */,
+				71B5CCCA66CCEE1B1492F805 /* InfoSheetView.swift in Sources */,
+				601EECE5C698E2CD3BD63191 /* DemoSettings.swift in Sources */,
+				83072748CC167BF18E72FA87 /* GlassCompat.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		335E31C7F49E5D3CEEB9C851 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "LiquidGlassReference/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LiquidGlassReference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Debug;
+		};
+		02296435E9D0E6C8667100C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "LiquidGlassReference/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.LiquidGlassReference";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Release;
+		};
+		E8F2CADE6CEFCF4738357281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				SWIFT_VERSION = 6.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Debug;
+		};
+		F98884CD36E78D9EFADFAB9A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				MARKETING_VERSION = 1.0.0;
+				SWIFT_VERSION = 6.0;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		399283127DF0232BE71ECA67 /* Build configuration list for PBXNativeTarget "LiquidGlassReference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				335E31C7F49E5D3CEEB9C851 /* Debug */,
+				02296435E9D0E6C8667100C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		356E5185BFF641DD968B810D /* Build configuration list for PBXProject "LiquidGlassReference" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E8F2CADE6CEFCF4738357281 /* Debug */,
+				F98884CD36E78D9EFADFAB9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+	};
+	rootObject = 5CD759D4193846E4910FD9BB /* Project object */;
+}
